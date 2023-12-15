@@ -327,8 +327,8 @@ img{
 	background: #f8f8f8;
 }
 .grdnt-blue:not(.overly){
-	background-image: -webkit-linear-gradient(45deg, #812dbd 0%, #066ce0 51% , #812dbd 100%);
-	background-image: linear-gradient(45deg, #812dbd 0%, #066ce0 51% , #812dbd 100%);
+	background-image: -webkit-linear-gradient(45deg, #36345f 0%, #36345f 51% , #36345f 100%);
+	background-image: linear-gradient(45deg, #36345f 0%, #36345f 51% , #36345f 100%);
 }
 .grdnt-purple:not(.overly){
 	background-image: -webkit-linear-gradient(45deg, #fd81b5 0%,  #c961f7 51% , #8089ff 100%);
@@ -339,16 +339,16 @@ img{
 	background-image: linear-gradient(45deg, #fe60a1 0%,  #ff8765 51% , #fe60a1 100%);
 }
 .grdnt-cyan:not(.overly){
-	background-image: -webkit-linear-gradient(45deg, #8089ff 0%,  #54ceff 51% , #8089ff 100%);
-	background-image: linear-gradient(45deg, #8089ff 0%,  #54ceff 51% , #8089ff 100%);
+	background-image: -webkit-linear-gradient(45deg, #36345f 0%, #36345f 51% , #36345f 100%);
+	background-image: linear-gradient(45deg, #36345f 0%, #36345f 51% , #36345f 100%);
 }
 .grdnt-green:not(.overly){
-	background-image: -webkit-linear-gradient(45deg, #00c9fd 0%,  #81ee8e 51% , #00c9fd 100%);
-	background-image: linear-gradient(45deg, #00c9fd 0%,  #81ee8e 51% , #00c9fd 100%);
+	background-image: -webkit-linear-gradient(45deg, #f8961e 0%,  #f8961e 51% , #f8961e 100%);
+	background-image: linear-gradient(45deg, #f8961e 0%,  #f8961e 51% , #f8961e 100%);
 }
 .grdnt-blue.overly:before{
-	background-image: -webkit-linear-gradient(45deg, #812dbd 0%, #066ce0 51% , #812dbd 100%);
-	background-image: linear-gradient(45deg, #812dbd 0%, #066ce0 51% , #812dbd 100%);
+	background-image: -webkit-linear-gradient(45deg, #36345f 0%, #36345f 51% , #36345f 100%);
+	background-image: linear-gradient(45deg, #36345f 0%, #36345f 51% , #36345f 100%);
 }
 .grdnt-purple.overly:before{
 	background-image: -webkit-linear-gradient(45deg, #fd81b5 0%,  #c961f7 51% , #8089ff 100%);
@@ -519,7 +519,7 @@ a[class*="grdnt-"]:hover, button[class*="grdnt-"]:hover{
   border-right:1px solid #fff;
   padding: 7px 0;
   color: #fff;
-  background: #ade5ff;
+  background: #72718f;
   cursor: pointer;
 }
 .tab-horizon .tab-menu .tab-list li a{
@@ -543,7 +543,7 @@ a[class*="grdnt-"]:hover, button[class*="grdnt-"]:hover{
 }
 .tab-horizon .tab-menu .tab-list li.active,
 .tab-horizon .tab-menu .tab-list li.active .glyphicon{
-  background-color: #0facf3;
+  background-color: #36345f;
 }
 .tab-horizon .tab-menu .tab-list li.active .icon{
 	color: #fff;
@@ -571,11 +571,11 @@ div[class*="grdnt-"] .tab-horizon .tab-menu .tab-list li.active,
 [class*="grdnt-"] .tab-horizon .tab-menu .tab-list li.active .glyphicon{
   background-color: #fff;
   border-color: transparent;
-  color: #0facf3;
+  color: #36345f;
 }
 div[class*="grdnt-"] .tab-horizon .tab-menu .tab-list li > a.active .icon, 
 [class*="grdnt-"] .tab-horizon .tab-menu .tab-list li > a.active .icon{
-	color: #0facf3;
+	color: #36345f;
 }
 div[class*="grdnt-"] .tab-horizon .tab-menu .tab-list li > a.active::after,
 [class*="grdnt-"] .tab-horizon .tab-menu .tab-list li > a.active::after{
@@ -676,6 +676,9 @@ div[class*="grdnt-"] .list-style li:before, [class*="grdnt-"] .list-style li:bef
 }
 .clr-blue{
 	color: #0facf3;
+}
+.clr-gray{
+	color: #36345f;
 }
 .clr-red{
 	color: #ff4954;
@@ -1056,7 +1059,7 @@ div[class*="grdnt-"] .list-style li:before, [class*="grdnt-"] .list-style li:bef
 	border:2px solid #0facf3;
 }
 .screen .owl-dot.active, .quote .owl-dot.active{
-	background: #0facf3;
+	background: #36345f;
 }
 div[class*="grdnt"] .screen .owl-dot, [class*="grdnt"] .screen .owl-dot, [class*="grdnt"] .quote .owl-dot{
 	border:2px solid #fff;
@@ -1214,7 +1217,7 @@ div[class*="-alt"]:after, [class*="-alt"]:after{
 	color: inherit;
 }
 .navbar-custom.affix ul li.active a{
-	color:#0facf3;
+	color:#36345f;
 }
 .navbar-custom ul li.active a{
 	position: relative;
@@ -1256,7 +1259,7 @@ div[class*="-alt"]:after, [class*="-alt"]:after{
 	background: #fff;
 }
 .navbar-custom.affix ul li.active a:after{
-	background: #0facf3;
+	background: #36345f;
 
 }
 .navbar-custom.affix .btn-border{
@@ -1508,7 +1511,7 @@ div[class*="-alt"]:after, [class*="-alt"]:after{
 	border: 1px solid #c5c5c5;
 }
 .blog .tags a.active{
-	background:#0facf3;
+	background:#36345f;
 	color: #fff;
 }
 .tags.alt a.active{
@@ -1960,7 +1963,7 @@ div[class*="style-"].footer-wrapper, [class*="style-"].footer-wrapper{
 	    color: #0facf3;
 	}
 	.navbar-custom ul li.active a {
-	    color: #0facf3;
+	    color: #36345f;
 	}
 	.nav-btn .btn{
 		margin-top: 8px;
