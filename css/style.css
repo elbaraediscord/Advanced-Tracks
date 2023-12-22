@@ -326,6 +326,9 @@ img{
 .bg-grey{
 	background: #f8f8f8;
 }
+.bg-blue{
+	background: #191a48;
+}
 .grdnt-blue:not(.overly){
 	background-image: -webkit-linear-gradient(45deg, #36345f 0%, #36345f 51% , #36345f 100%);
 	background-image: linear-gradient(45deg, #36345f 0%, #36345f 51% , #36345f 100%);
