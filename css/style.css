@@ -363,8 +363,8 @@ img{
 	background-image: linear-gradient(45deg, #8089ff 0%,  #54ceff 51% , #8089ff 100%);
 }
 .grdnt-green.overly:before{
-	background-image: -webkit-linear-gradient(45deg, #00c9fd 0%,  #81ee8e 51% , #00c9fd 100%);
-	background-image: linear-gradient(45deg, #00c9fd 0%,  #81ee8e 51% , #00c9fd 100%);
+	background-image: -webkit-linear-gradient(45deg, #f8961e 0%,  #f8961e 51% , #f8961e 100%);
+	background-image: linear-gradient(45deg, #f8961e 0%,  #f8961e 51% , #f8961e 100%);
 }
 div[class*="grdnt-"], section[class*="grdnt-"], 
 footer[class*="grdnt-"], header[class*="grdnt-"], nav[class*="grdnt-"], 
