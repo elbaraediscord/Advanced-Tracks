@@ -37,7 +37,7 @@
 						<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
 						<i class="fa fa-bars"></i>
 						</button>
-						<a class="navbar-brand page-scroll logo-light" style="margin-left:50px" href="appto.html"><img alt="" src="image/logo.png"></a>
+						<a class="navbar-brand page-scroll logo-light"  style="margin-left:50px;width: 100%;max-width: 200px;" href="appto.html"><img alt="" src="image/logo.png"></a>
 						<a class="navbar-brand page-scroll logo-light" href="appto.html"><img alt="" src="image/English Logo Upscaled (1).png" style="height: 50px; width: auto;"></a>
 						<a class="navbar-brand page-scroll logo-clr" href="appto.html"><img alt="" class="responsive" src="image/logo.png"></a>
 					</div>
@@ -47,11 +47,11 @@
 							<div class="right-nav text-right">
 								<ul class="nav navbar-nav menu">
 									<li>
-										<a href="#home">الرئيسية</a>
+										<a href="#home" scroll-behavior: smooth;>الرئيسية</a>
 									</li>
 									
 									<li>
-										<a href="#overview">الخدمات</a>
+										<a href="#overview" scroll-behavior: smooth;>الخدمات</a>
 									</li>
 									<!-- <li class="dropdown">
 										<a href="#pages">الصفحات</a>
@@ -71,14 +71,14 @@
 									</li>-->
 
 									<li>
-										<a href="#feature">حول</a> 
+										<a href="#feature" scroll-behavior: smooth;>حول</a> 
 									</li>
 									<li>
-										<a href="#partener">شركاؤنا</a>
+										<a href="#partener" scroll-behavior: smooth;>شركاؤنا</a>
 									</li>
 								</ul>
 							<div class="nav-btn">
-								<a href="#contact" class="btn btn-sm grdnt-green">اتصل بنا</a>
+								<a href="#contact" class="btn btn-sm grdnt-green" scroll-behavior: smooth;>اتصل بنا</a>
 							</div>
 						</div>
 					</div>
@@ -236,7 +236,7 @@
 							<p>شركاءك الموثوق بهم في بناء الطرق الإسفلتية. نقوم بتوفير الأساس لطرق آمنة ومتينة وجميلة، في كل خطوة على الطريق!</p>
 						<div class="btn-holder">
 							<a class="btn grdnt-green" href="">
-							<i class="fa fa-phone" aria-hidden="true"></i><p>اتصل بنا<br><span></span></p></a>
+							<i class="fa fa-phone" aria-hidden="true"></i><p>اتصل بنا</p></a>
 						</div>
 					</div>
 				</div>
@@ -262,11 +262,6 @@
 							عملها وتفعيل التقنيات الحديثة والابتكار وتكون
 							نموذج مميز لتجربة العميل
 							.</p>
-					</div>
-				</div>
-				<div class="col-md-5">
-					<div class="overview-img">
-						<img alt="" src="image/New Images/Orange Line Cropped.png" class="important">
 					</div>
 				</div>
 			</div>
@@ -372,17 +367,6 @@
 	</div>
 </section>
 <!-- End content -->
-<section style="background:white;">
-	<div class="sec-pad-lg" >
-		<div class="container">
-			<div class="row">
-				<image src="image/New Images/Mission Text.png"></image>
-				
-			</div>
-		</div>
-		</div>
-	</div>
-</section>
 
 
 <!-- خاصية -->
@@ -455,6 +439,31 @@
   <!-- انتهت الخاصية -->
   
 
+	<!-- الرسالة -->
+	<section class="sec-pad">
+		<div class="container">
+			<div class="row">
+				<div class="overview flx-container align-flx-center flx-off-sm row res-center">
+					<div class="col-md-6 col-md-offset-1">
+						<div class="overview-text animated wow fadeIn" data-wow-delay=".1s" style="text-align: right;">
+							<h2 class="fw-600" style="font-family: 'Times New Roman', Times, serif;font-weight: bold;text-align: center;"><mark style="background-color: #f7941f;color: #181a4a;">الرسالة</mark></h2>
+							<div class="spce"></div>
+							<p style="color: #181a4a; font-weight: 600;">تسعى المسارات المتقدمة لتكون رسالتها هى</p>
+							<ul class="custom-list" style="color: rgb(212, 212, 212);list-style: none;">
+								<li class="custom-item" style="color: #181a4a; font-weight: 550;">لتطوير المستمر والتحلي بروح المبادرة</li>
+								<li class="custom-item" style="color: #181a4a; font-weight: 550;">لالتزام بالشفافية والوضوح</li>
+								<li class="custom-item" style="color: #181a4a; font-weight: 550;">لعمل وفق افضل الممارسات العالمية</li>
+								<li class="custom-item" style="color: #181a4a; font-weight: 550;">لعمل بروح الفربق الواحد</li>
+								<li class="custom-item" style="color: #181a4a; font-weight: 550;">لاستخدام الامثل والفعال للموارد البشرية والمالية وتكنولوجيا لمعلومات</li>
+								<li class="custom-item" style="color: #181a4a; font-weight: 550;">لحرص على الابتكار والتطوير المستمر والمحافظة على البيئة</li>
+							  </ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- نهاية الرسالة -->
 
 <!-- لقطة الشاشة -->
 <section class="sec-pad" dir="ltr">
@@ -746,7 +755,7 @@
             </div>
             <div class="spce"></div>
             <div class="copyright text-center light">
-                2023 حقوق النشر &copy; <strong><a id="contact" href="#">أدفانس تراكس</a></strong>. كل الحقوق محفوظة
+                2023 حقوق النشر &copy; <strong><a id="contact" href="#">Advanced Tracks</a></strong>. كل الحقوق محفوظة
             </div>
         </div>
     </div>
