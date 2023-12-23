@@ -78,7 +78,29 @@ Version:1.0;
 
 
 
-
+ul.custom-list {
+	list-style-type: none; /* Remove default list styles */
+	padding: 0;            /* Remove default padding */
+  }
+  
+  li.custom-item {
+	margin-bottom: 10px;
+	padding-left: 25px;
+	position: relative;
+	line-height: 1.5;
+  }
+  
+  li.custom-item::before {
+	content: "";                 /* Empty content for the pseudo-element */
+	background-image: url('Bullet Icon.png'); /* Replace 'your-image-url.jpg' with the path to your image */
+	background-size: contain;    /* Adjust the background size as needed */
+	background-repeat: no-repeat; /* Ensure the image doesn't repeat */
+	display: inline-block;
+	width: 10px;                 /* Set the width of the image */
+	height: 10px;                /* Set the height of the image */
+	margin-right: 10px;          /* Adjust spacing between the image and text */
+	vertical-align: middle;      /* Align the image vertically with the text */
+  }
 .blog_pagination .pagination{
 	margin-bottom: 0px;
 	margin-top: 100px;

@@ -18,32 +18,6 @@
 	
 </head>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-<script>
-$(document).ready(function(){
-  // Add smooth scrolling to all links
-  $("a").on('click', function(event) {
-
-    // Make sure this.hash has a value before overriding default behavior
-    if (this.hash !== "") {
-      // Prevent default anchor click behavior
-      event.preventDefault();
-
-      // Store hash
-      var hash = this.hash;
-
-      // Using jQuery's animate() method to add smooth page scroll
-      // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
-      $('html, body').animate({
-        scrollTop: $(hash).offset().top
-      }, 800, function(){
-
-        // Add hash (#) to URL when done scrolling (default click behavior)
-        window.location.hash = hash;
-      });
-    } // End if
-  });
-});
-</script>
 <body data-spy="scroll" data-target="#navbar" data-offset="70">
 
 	<!-- Preloader -->
@@ -63,7 +37,7 @@ $(document).ready(function(){
 						<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
 						<i class="fa fa-bars"></i>
 						</button>
-						<a class="navbar-brand page-scroll logo-light" href="appto.html"><img alt="" src="image/logo.png"></a>
+						<a class="navbar-brand page-scroll logo-light" href="appto.html"><img  style="width: 100%;max-width: 200px;" alt="" src="image/logo.png"></a>
 						<a class="navbar-brand page-scroll logo-light" href="appto rtl.html"><img alt="" src="image/arabic.png" style="height: 50px; width: auto;"></a>
 						<a class="navbar-brand page-scroll logo-clr" href="appto.html"><img alt="" class="responsive" src="image/logo.png"></a>
 					</div>
@@ -73,11 +47,11 @@ $(document).ready(function(){
 							<div class="right-nav text-right">
 								<ul class="nav navbar-nav menu">
 									<li>
-										<a href="#home">Home</a>
+										<a href="#home" scroll-behavior: smooth;>Home</a>
 									</li>
 									
 									<li>
-										<a href="#overview">Services</a>
+										<a href="#overview" scroll-behavior: smooth;>Services</a>
 									</li>
 									<!-- <li class="dropdown">
 										<a href="#pages">Pages</a>
@@ -97,14 +71,14 @@ $(document).ready(function(){
 									</li>-->
 
 									<li>
-										<a href="#feature">About</a> 
+										<a href="#feature" scroll-behavior: smooth;>About</a> 
 									</li>
 									<li>
-										<a href="#partener">Our partners</a>
+										<a href="#partener" scroll-behavior: smooth;>Our partners</a>
 									</li>
 								</ul>
 							<div class="nav-btn">
-								<a href="#contact" class="btn btn-sm grdnt-green">Contact</a>
+								<a href="#contact" class="btn btn-sm grdnt-green" scroll-behavior: smooth;>Contact</a>
 							</div>
 						</div>
 					</div>
@@ -259,7 +233,7 @@ $(document).ready(function(){
 							<p>Your Trusted Partners in Asphalt Road Construction. We Lay the Foundation for Safe, Durable, and Beautiful Roads, Every Step of the Way!</p>
 							<div class="btn-holder">
 								<a class="btn grdnt-green" href="">
-								<i class="fa fa-phone" aria-hidden="true"></i><p>Contact<br><span>Us</span></p></a>
+								<i class="fa fa-phone" aria-hidden="true"></i><p>Contact Us</p></a>
 							</div>
 						</div>
 					</div>
@@ -283,7 +257,7 @@ $(document).ready(function(){
 					</div>
 					<div class="col-md-5">
 						<div class="overview-img">
-							<img alt="" src="image/New Images/Orange Line Cropped.png" class="important">
+							
 						</div>
 					</div>
 				</div>
@@ -397,17 +371,7 @@ $(document).ready(function(){
 		</div>
 	</section>
 	<!-- End content -->
-	<section style="background:white;">
-		<div class="sec-pad-lg" >
-			<div class="container">
-				<div class="row">
-					<image src="image/New Images/Mission Text.png"></image>
-					
-				</div>
-			</div>
-			</div>
-		</div>
-	</section>
+
 	<!-- Feature -->
 	<section id="feature" class="sec-pad grdnt-blue hide-block">
 		<div class="container">
@@ -476,6 +440,34 @@ $(document).ready(function(){
 		</div>
 	</section>
 	<!-- End Feature -->
+
+	
+	<!-- Mission -->
+	<section class="sec-pad">
+		<div class="container">
+			<div class="row">
+				<div class="overview flx-container align-flx-center flx-off-sm row res-center">
+					<div class="col-md-6 col-md-offset-1">
+						<div class="overview-text animated wow fadeIn" data-wow-delay=".1s" style="text-align: left;">
+							<h2 class="fw-600" style="font-family: 'Times New Roman', Times, serif;font-weight: bold;text-align: center;"><mark style="background-color: #f7941f;color: #181a4a;">MISSION</mark></h2>
+							<div class="spce"></div>
+							<p style="color: #181a4a; font-weight: 600;">The advanced paths seek to be its message</p>
+							<ul class="custom-list" style="color: rgb(212, 212, 212);list-style: none;">
+								<li class="custom-item" style="color: #181a4a; font-weight: 550;"><span></span>Continuous development and entrepreneurial spirit</li>
+								<li class="custom-item" style="color: #181a4a; font-weight: 550;"><span></span>Commitment to transparacy and clarity</li>
+								<li class="custom-item" style="color: #181a4a; font-weight: 550;"><span></span>Work according to international best practices</li>
+								<li class="custom-item" style="color: #181a4a; font-weight: 550;"><span></span>Effective team work</li>
+								<li class="custom-item" style="color: #181a4a; font-weight: 550;"><span></span>Optimal and effective use of human and financial ressources and information technology</li>
+								<li class="custom-item" style="color: #181a4a; font-weight: 550;"><span></span>Ensuring innovation, continuous development and preserving the environment</li>
+							  </ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- Mission End -->
+
 
 	<!-- Screenshot -->
 	<section class="sec-pad">
@@ -845,7 +837,7 @@ $(document).ready(function(){
 				</div>
 				<div class="spce"></div>
 				<div class="copyright text-center light">
-					2023 COPYRIGHT <strong><a id="contact" href="#">AdvanedTracks</a></strong>. ALL RIGHTS RESERVED
+					2023 COPYRIGHT <strong><a id="contact" href="#">AdvancedTracks</a></strong>. ALL RIGHTS RESERVED
 				</div>
 			</div>			
 		</div>
